@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="MonthlyReports" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/MonthlyReports" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100cc918e6146c34bf8b42874e815a67fd7" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Name="AssignedTo" /><FieldRef ID="{40b6f17c-83b1-4c73-b554-e9cfc539347d}" Name="CompletedJanuary" /><FieldRef ID="{738596cc-05df-4ebb-82ec-1d6be90a4213}" Name="CompletedFebruary" /><FieldRef ID="{7137ea5b-99af-41e0-9cdf-c0d9d0c98a00}" Name="CompletedMarch" /><FieldRef ID="{f148f312-28f0-49ab-bf20-18b2ea0d9a7c}" Name="CompletedApril" /><FieldRef ID="{ae8731ca-52fb-4c2b-8d5b-542be0a32506}" Name="CompletedMay" /><FieldRef ID="{4a1c8bc1-46cd-43df-844c-5d131b4ed1f5}" Name="CompletedJune" /><FieldRef ID="{56e558d0-8670-4096-9902-32b47e99913b}" Name="CompletedJuly" /><FieldRef ID="{0b2079d5-c7a3-4849-a9be-a88fa890b3a4}" Name="CompletedAugust" /><FieldRef ID="{0186b3fa-f015-46ad-85d5-b32a3b0cf79c}" Name="CompletedSeptember" /><FieldRef ID="{10ac55d5-649a-4e5e-8a06-76443868fda7}" Name="CompletedOctober" /><FieldRef ID="{ee5cf06b-2794-4812-9544-05d4ea213cbf}" Name="CompletedNovember" /><FieldRef ID="{f1872a2f-783a-4115-bd94-74f1ef53575c}" Name="CompletedDecember" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Name="AssignedTo" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AssignedTo" Group="$Resources:core,Issue_Task_Columns;" Type="User" List="UserInfo" DisplayName="$Resources:core,Assigned_To;" /><Field ID="{40b6f17c-83b1-4c73-b554-e9cfc539347d}" Name="CompletedJanuary" DisplayName="Completed January" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{738596cc-05df-4ebb-82ec-1d6be90a4213}" Name="CompletedFebruary" DisplayName="Completed February" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{7137ea5b-99af-41e0-9cdf-c0d9d0c98a00}" Name="CompletedMarch" DisplayName="Completed March" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{f148f312-28f0-49ab-bf20-18b2ea0d9a7c}" Name="CompletedApril" DisplayName="Completed April" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{ae8731ca-52fb-4c2b-8d5b-542be0a32506}" Name="CompletedMay" DisplayName="Completed May" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{4a1c8bc1-46cd-43df-844c-5d131b4ed1f5}" Name="CompletedJune" DisplayName="Completed June" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{56e558d0-8670-4096-9902-32b47e99913b}" Name="CompletedJuly" DisplayName="Completed July" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{0b2079d5-c7a3-4849-a9be-a88fa890b3a4}" Name="CompletedAugust" DisplayName="Completed August" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{0186b3fa-f015-46ad-85d5-b32a3b0cf79c}" Name="CompletedSeptember" DisplayName="Completed September" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{10ac55d5-649a-4e5e-8a06-76443868fda7}" Name="CompletedOctober" DisplayName="Completed October" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{ee5cf06b-2794-4812-9544-05d4ea213cbf}" Name="CompletedNovember" DisplayName="Completed November" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field><Field ID="{f1872a2f-783a-4115-bd94-74f1ef53575c}" Name="CompletedDecember" DisplayName="Completed December" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/MonthlyReportsRendering.js"><CHOICES><CHOICE>Not Started</CHOICE><CHOICE>In Progress</CHOICE><CHOICE>Completed</CHOICE></CHOICES><MAPPINGS><MAPPING Value="1">Not Started</MAPPING><MAPPING Value="2">In Progress</MAPPING><MAPPING Value="3">Completed</MAPPING></MAPPINGS><Default>Not Started</Default></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="AssignedTo" /><FieldRef Name="CompletedJanuary" /><FieldRef Name="CompletedFebruary" /><FieldRef Name="CompletedMarch" /><FieldRef Name="CompletedApril" /><FieldRef Name="CompletedMay" /><FieldRef Name="CompletedJune" /><FieldRef Name="CompletedJuly" /><FieldRef Name="CompletedAugust" /><FieldRef Name="CompletedSeptember" /><FieldRef Name="CompletedOctober" /><FieldRef Name="CompletedNovember" /><FieldRef Name="CompletedDecember" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

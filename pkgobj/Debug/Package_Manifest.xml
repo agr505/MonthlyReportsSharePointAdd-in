@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f8be463b-5d1b-4e85-87bb-5b64513548fb" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="MonthlyReports_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

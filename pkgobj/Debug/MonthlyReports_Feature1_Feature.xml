@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint Add-in Feature" Id="d233c453-9058-4cea-8bf0-b58b3ad0b86a" Scope="Web" Title="MonthlyReports Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\MonthlyReportsRendering.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="MonthlyReportsInstance\Elements.xml" />
+    <ElementManifest Location="MonthlyReports\Elements.xml" />
+    <ElementFile Location="MonthlyReports\Schema.xml" />
+    <ElementManifest Location="CompletedApril\Elements.xml" />
+    <ElementManifest Location="CompletedMay\Elements.xml" />
+    <ElementManifest Location="CompletedJune\Elements.xml" />
+    <ElementManifest Location="CompletedJuly\Elements.xml" />
+    <ElementManifest Location="CompletedAugust\Elements.xml" />
+    <ElementManifest Location="CompletedSeptember\Elements.xml" />
+    <ElementManifest Location="CompletedJanuary\Elements.xml" />
+    <ElementManifest Location="CompletedFebruary\Elements.xml" />
+    <ElementManifest Location="CompletedMarch\Elements.xml" />
+    <ElementManifest Location="CompletedOctober\Elements.xml" />
+    <ElementManifest Location="CompletedNovember\Elements.xml" />
+    <ElementManifest Location="CompletedDecember\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="MonthlyReportsInstance\Elements.xml" />
+        <ElementManifest Location="MonthlyReports\Elements.xml" />
+        <ElementManifest Location="CompletedApril\Elements.xml" />
+        <ElementManifest Location="CompletedMay\Elements.xml" />
+        <ElementManifest Location="CompletedJune\Elements.xml" />
+        <ElementManifest Location="CompletedJuly\Elements.xml" />
+        <ElementManifest Location="CompletedAugust\Elements.xml" />
+        <ElementManifest Location="CompletedSeptember\Elements.xml" />
+        <ElementManifest Location="CompletedJanuary\Elements.xml" />
+        <ElementManifest Location="CompletedFebruary\Elements.xml" />
+        <ElementManifest Location="CompletedMarch\Elements.xml" />
+        <ElementManifest Location="CompletedOctober\Elements.xml" />
+        <ElementManifest Location="CompletedNovember\Elements.xml" />
+        <ElementManifest Location="CompletedDecember\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

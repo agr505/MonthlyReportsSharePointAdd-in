@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="f8be463b-5d1b-4e85-87bb-5b64513548fb" 
+        solutionId="f8be463b-5d1b-4e85-87bb-5b64513548fb" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="MonthlyReports"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="d233c453-9058-4cea-8bf0-b58b3ad0b86a" />
+  </features>
+</package>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{56e558d0-8670-4096-9902-32b47e99913b}"
+       Name="CompletedJuly"
+       DisplayName="Completed July"
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns"
+    JSLink="~site/Scripts/MonthlyReportsRendering.js">
+    <CHOICES>
+      <CHOICE>Not Started</CHOICE>
+      <CHOICE>In Progress</CHOICE>
+      <CHOICE>Completed</CHOICE>
+    </CHOICES>
+    <MAPPINGS>
+      <MAPPING Value="1">Not Started</MAPPING>
+      <MAPPING Value="2">In Progress</MAPPING>
+      <MAPPING Value="3">Completed</MAPPING>
+    </MAPPINGS>
+    <Default>Not Started</Default>   
+  </Field>
+</Elements>
